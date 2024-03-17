@@ -11,7 +11,7 @@ public class UniversityTest {
     @Test
     public void getAllStudents() {
         Student student1 = new Student("Евгений", 34, true);
-        Student student2 = new Student("Мария", 23, false);
+        Student student2 = new Student("Ира", 23, false);
         Student student3= new Student("Оля", 48, false);
 
         University university = new University();
